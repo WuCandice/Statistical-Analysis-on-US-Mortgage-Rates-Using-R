@@ -3,7 +3,7 @@ Econ 400 - Project #2 - Multicollinearity and Non-Linear Models in Mortgage Rate
 
 Purpose:  Use various sources (suggestion: most likely you can find on FRED - Federal Reserves Economic Data - database)  to get data series of mortgage rate and other variables, and analyze the collinearity among the independent variables, as well as applying Non-Linear functional forms.
 
-Task: 
+#### Task: 
 
 1) Get the following monthly data series, starting from 30 years ago  (code in brackets), line them up with the same starting points to endpoints:
 
