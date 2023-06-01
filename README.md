@@ -2,7 +2,7 @@
 
 Purpose:  Use various sources (suggestion: most likely you can find on FRED - Federal Reserves Economic Data - database)  to get data series of mortgage rate and other variables, and analyze the collinearity among the independent variables, as well as applying Non-Linear functional forms.
 
-#### Task: 
+## Task: 
 
 1) Get the following monthly data series, starting from 30 years ago  (code in brackets), line them up with the same starting points to endpoints:
 
@@ -46,7 +46,7 @@ X8 = ..
 
 ====
 
-#### Additional notes about the Data from FRED; 
+## Additional notes about the Data from FRED; 
 
 There are many variations of both CPI and GDP.  Each has its usefulness.   And it depends on the researcher on how to use it, usually choosing it based on what you need.  In a paper, usually we describe the data used, along with reasons why we are using it.  
 
