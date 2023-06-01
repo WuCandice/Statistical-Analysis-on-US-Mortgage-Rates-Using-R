@@ -1,5 +1,4 @@
 # -Statistical-Analysis-of-Economic-Variables-and-the-Mortgage-Rate-in-the-United-States
-Econ 400 - Project #2 - Multicollinearity and Non-Linear Models in Mortgage Rate
 
 Purpose:  Use various sources (suggestion: most likely you can find on FRED - Federal Reserves Economic Data - database)  to get data series of mortgage rate and other variables, and analyze the collinearity among the independent variables, as well as applying Non-Linear functional forms.
 
