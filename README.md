@@ -1,7 +1,7 @@
 # Statistical Analysis of Economic Variables and the Mortgage Rate in the United States: Exploring Influential Factors and Predictive Models
-ECON 400: Econometrics- Bellevue College
-Project Paper
-By Candice Wu
+ECON 400: Econometrics- Bellevue College</p>
+Project Paper</p>
+By Candice Wu</p>
 
 ## I. INTRODUCTION
 The purpose of this statistical analysis is to examine the relationship between various
