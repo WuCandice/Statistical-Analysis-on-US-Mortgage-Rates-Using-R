@@ -19,20 +19,19 @@ The dataset used in this analysis is extracted from the Federal Reserve's Econom
 Data (FRED) database, covering the period from October 1, 1993, to October 31, 2022.
 The dataset comprises 349 observations and includes 9 variables. The dependent
 variable is MORTGAGE30US and the independent variables are FEDFUNDS,
-CPILFESL, NGDPNSAXDCUSQ, TB3MS, GS20, USSTHPI, HQMCB10YR, anda
-LREM64TTUSM156S.
+CPILFESL, NGDPNSAXDCUSQ, TB3MS, GS20, USSTHPI, HQMCB10YR, and LREM64TTUSM156S.
 ### B. Variables
-MORTGAGE30US: 30-Year Fixed Rate Mortgage Average in the United States
-FEDFUNDS: Federal Funds Effective Rate
+MORTGAGE30US: 30-Year Fixed Rate Mortgage Average in the United States </p>
+FEDFUNDS: Federal Funds Effective Rate </p>
 CPILFESL: Consumer Price Index for All Urban Consumers: All Items Less Food and
-Energy in U.S. City Average
-NGDPNSAXDCUSQ: Nominal Gross Domestic Product for United States
-TB3MS: 3-Month Treasury Bill Secondary Market Rate, Discount Basis
+Energy in U.S. City Average </p>
+NGDPNSAXDCUSQ: Nominal Gross Domestic Product for United States</p>
+TB3MS: 3-Month Treasury Bill Secondary Market Rate, Discount Basis</p>
 GS20: Market Yield on U.S. Treasury Securities at 20-Year Constant Maturity, Quoted
-on an Investment Basis
-USSTHPI: All-Transactions House Price Index for the United States
-HQMCB10YR: 10-Year High Quality Market (HQM) Corporate Bond Spot Rate
-LREM64TTUSM156S: Employment Rate: Aged 15-64: All Persons for the United States
+on an Investment Basis</p>
+USSTHPI: All-Transactions House Price Index for the United States</p>
+HQMCB10YR: 10-Year High Quality Market (HQM) Corporate Bond Spot Rate</p>
+LREM64TTUSM156S: Employment Rate: Aged 15-64: All Persons for the United States</p>
 ### C. Data Visualization
 ![image](https://github.com/WuCandice/-Statistical-Analysis-of-Economic-Variables-and-the-Mortgage-Rate-in-the-United-States/assets/127648422/4e5c93a2-7120-40b9-8527-2a945eae5d83)
 When analyzing a dataset for statistical purposes, it is vital to examine the correlation
