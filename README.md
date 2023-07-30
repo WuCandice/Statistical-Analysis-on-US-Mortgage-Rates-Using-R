@@ -33,7 +33,7 @@ USSTHPI: All-Transactions House Price Index for the United States</p>
 HQMCB10YR: 10-Year High Quality Market (HQM) Corporate Bond Spot Rate</p>
 LREM64TTUSM156S: Employment Rate: Aged 15-64: All Persons for the United States</p>
 ### C. Data Visualization
-![image](https://github.com/WuCandice/-Statistical-Analysis-of-Economic-Variables-and-the-Mortgage-Rate-in-the-United-States/assets/127648422/4e5c93a2-7120-40b9-8527-2a945eae5d83)
+![image](https://github.com/WuCandice/-Statistical-Analysis-of-Economic-Variables-and-the-Mortgage-Rate-in-the-United-States/assets/127648422/4e5c93a2-7120-40b9-8527-2a945eae5d83)</p>
 When analyzing a dataset for statistical purposes, it is vital to examine the correlation
 matrix of variables as it provides valuable insights into the strength, direction, and
 significance of relationships between variables. The correlation coefficient ranges from
