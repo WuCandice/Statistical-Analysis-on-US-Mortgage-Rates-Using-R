@@ -13,7 +13,7 @@ such as multicollinearity and skewness in the dataset, performing appropriate
 techniques to mitigate their effects. The findings of this analysis will contribute to a
 better understanding of the factors influencing mortgage rates in the United States
 
-## II. II DATA
+## II. DATA
 ### A. About The Dataset
 The dataset used in this analysis is extracted from the Federal Reserve's Economic
 Data (FRED) database, covering the period from October 1, 1993, to October 31, 2022.
