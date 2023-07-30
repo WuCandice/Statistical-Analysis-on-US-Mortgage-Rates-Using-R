@@ -1,56 +1,35 @@
-# Statistical Analysis of Economic Variables and the Mortgage Rate in the United States
+# Statistical Analysis of Economic Variables and the Mortgage Rate in the United States: Exploring Influential Factors and Predictive Models
+ECON 400: Econometrics- Bellevue College
+Project Paper
+By Candice Wu
 
-Purpose:  Use various sources (suggestion: most likely you can find on FRED - Federal Reserves Economic Data - database)  to get data series of mortgage rate and other variables, and analyze the collinearity among the independent variables, as well as applying Non-Linear functional forms.
+## I. INTRODUCTION
+The purpose of this statistical analysis is to examine the relationship between various
+economic variables and the 30-Year Fixed Rate Mortgage Average in the United States
+(MORTGAGE30US). In this analysis, I aim to investigate the impact of these
+independent variables on the mortgage rate and determine which variables have a
+significant relationship with MORTGAGE30US. Additionally, I will address challenges
+such as multicollinearity and skewness in the dataset, performing appropriate
+techniques to mitigate their effects. The findings of this analysis will contribute to a
+better understanding of the factors influencing mortgage rates in the United States
 
-## Task: 
-
-1) Get the following monthly data series, starting from 30 years ago  (code in brackets), line them up with the same starting points to endpoints:
-
-Y = 30-year mortgage rate   (mortg)  or any similar data 
-
-X1 = federal funds rate   (fedfunds)
-
-X2 = inflation rate    (cpi)
-
-X3 = nominal gdp  (ngdp); GDP is usually reported quarterly, so make it monthly by extrapolation.
-
-X4 = 3-month Treasury Bills  (tb3ms)  
-
-X5 = 20-year Treasury Bonds maturity rate   (gs20)
-
-X6 = House price index  (choose what you think is relevant)
-
-X7 = ..
-
-X8 = ..
-
-2) Add two more variables of your own choice; look for your own sources, you can use binary (and then create Interactive on some variables - just a suggestion); improvise as you need to, in terms of duration and frequency of your data; but I suggest to start data from 1990 until the most current to ensure you get large enough samples to satisfy normality assumption, as well as seeing the up and down of the economy since that year, and how it changes the variables.
-
-3) For each explanatory variables, indicate the effect (positive or negative) that you anticipate, before running a regression, to start you thinking of the logic of your model.
-
-4) Estimate OLS with all the variables.  Based on the output, check for t-test and F-test  at 5% significance level, and sum up the results.
-
-5) Check for the correlation coefficients of the x-variables, assess if there is a case of multi-collinearity; identify variables that are insignificant that you can drop.
-
-6) Analyze the residuals against each of the x-variables using textplot or scatter.  What do they say?
-
-7) Change one or two variables into different format (logs, squares, etc.);  if there’s dummy vars, create interactive terms; then include them into your model.
-
-8) Carry out HSK test, make conclusion; if there's a case of HSK, carry out WLS (choose what variable as the weight), obtain the estimates. Eliminate some variables as necessary.  Modify your model accordingly.   Check t, F, p-values for significance.
-
-9) As you start with the original model, checked for significance of x-variables, omit one at a time as necessary, each time re-estimate and justify each omission; Use the stargazer commands (in R) to gather your regression outputs later, giving you a more professional output comparison.     
-
-10) What is your final model?   Do the signs or the (non)linearity in the final model agree with your intuition? 
-
-11) Write up a cover page for your assessment and conclusion, and attach your summary of outputs from stargazer; you can put the other regression outputs on Appendix at the very last page.  Make it organized and presentable.  Submit your report here on Canvas.
-
-====
-
-## Additional notes about the Data from FRED; 
-
-There are many variations of both CPI and GDP.  Each has its usefulness.   And it depends on the researcher on how to use it, usually choosing it based on what you need.  In a paper, usually we describe the data used, along with reasons why we are using it.  
-
-For CPI: Since we are looking at the long-term mortgage rate,  I would suggest to use Urban (since mortgages in cities are more prevalent), and choose the one that exclude (less) Food and Energy (because prices of food and energy fluctuates more and usually - and hopefully - temporary in the short run).  
-
-As for GDP, I suggest to choose nominal not Real (since we already have CPI variable; if we use Real GDP, there will be correlation issue with CPI).  Also, it's better if you can use Seasonally-Adjusted data (taking out the outliers from holiday fluctuations).   Since the GDP is reported quarterly, to get the monthly trend, do extrapolation.  You can lookup this source, scroll down for Extrapolation for Non-Linear Data using Trendline:
-https://www.exceldemy.com/extrapolate-data-in-excel/
+## II. II DATA
+### A. About The Dataset
+The dataset used in this analysis is extracted from the Federal Reserve's Economic
+Data (FRED) database, covering the period from October 1, 1993, to October 31, 2022.
+The dataset comprises 349 observations and includes 9 variables. The dependent
+variable is MORTGAGE30US and the independent variables are FEDFUNDS,
+CPILFESL, NGDPNSAXDCUSQ, TB3MS, GS20, USSTHPI, HQMCB10YR, anda
+LREM64TTUSM156S.
+### B. Variables
+MORTGAGE30US: 30-Year Fixed Rate Mortgage Average in the United States
+FEDFUNDS: Federal Funds Effective Rate
+CPILFESL: Consumer Price Index for All Urban Consumers: All Items Less Food and
+Energy in U.S. City Average
+NGDPNSAXDCUSQ: Nominal Gross Domestic Product for United States
+TB3MS: 3-Month Treasury Bill Secondary Market Rate, Discount Basis
+GS20: Market Yield on U.S. Treasury Securities at 20-Year Constant Maturity, Quoted
+on an Investment Basis
+USSTHPI: All-Transactions House Price Index for the United States
+HQMCB10YR: 10-Year High Quality Market (HQM) Corporate Bond Spot Rate
+LREM64TTUSM156S: Employment Rate: Aged 15-64: All Persons for the United States
