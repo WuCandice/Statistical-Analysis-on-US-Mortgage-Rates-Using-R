@@ -1,4 +1,4 @@
-# Statistical Analysis of Economic Variables and the Mortgage Rate in the United States: Exploring Influential Factors and Predictive Models
+# Statistical Analysis of Economic Variables and the Mortgage Rate in the United States
 ECON 400: Econometrics- Bellevue College</p>
 Project Paper</p>
 By Candice Wu</p>
