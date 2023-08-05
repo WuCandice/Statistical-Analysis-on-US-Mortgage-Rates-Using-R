@@ -1,4 +1,5 @@
 # Statistical Analysis of Economic Variables and the Mortgage Rate in the United States
+![Screenshot 2023-08-05 at 15 53 03](https://github.com/WuCandice/-Statistical-Analysis-of-Economic-Variables-and-the-Mortgage-Rate-in-the-United-States/assets/127648422/d19d1f8e-b042-4b91-a0a2-317a4d9ec079)
 ECON 400: Econometrics- Bellevue College</p>
 Project Paper</p>
 By Candice Wu</p>
